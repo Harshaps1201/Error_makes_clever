@@ -1,4 +1,7 @@
-for i in range (1,5):
-    print()
-    for j in range (1,i+1):
-        print("*",end="")
+for i in range(10,210,10):
+    print(i)
+
+n=10
+while(n<=200):
+    print(n)
+    n=n+10
