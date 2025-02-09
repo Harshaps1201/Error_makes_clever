@@ -1,7 +1,7 @@
-for i in range(10,210,10):
-    print(i,end=",")
-print()
 n=10
-while(n<=200):
+while(n<11 and n>0):
     print(n,end=",")
-    n=n+10
+    n=n-1
+print()
+for i in range(10,0,-1):
+    print(i,end=",")
