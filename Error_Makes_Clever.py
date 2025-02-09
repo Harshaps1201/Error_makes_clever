@@ -1,7 +1,7 @@
-n=10
-while(n<11 and n>0):
-    print(n,end=",")
+m=int(input("enter a number: "))
+n=m
+a=1
+while(n>0):
+    a=a*n
     n=n-1
-print()
-for i in range(10,0,-1):
-    print(i,end=",")
+print("factorial of ",m,"is",a)
