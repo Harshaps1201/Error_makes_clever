@@ -1,7 +1,24 @@
-m=int(input("enter a number: "))
-n=m
-a=1
-while(n>0):
-    a=a*n
-    n=n-1
-print("factorial of ",m,"is",a)
+a=[1,2,3,4,5,6]
+print(a)
+a.append(7)
+a.append(70)
+print(a)
+a.append(True)
+a.append("Hi")
+print(a)
+print(a[0])
+a.insert(0,8)
+print(a[0])
+print(a)
+a[0]=9
+print(a)
+a.pop(2)
+print(a)
+a.pop()
+print(a)
+a.pop()
+a.pop()
+print(a)
+b=[11,22,33]
+a.extend(b)
+print(a)
