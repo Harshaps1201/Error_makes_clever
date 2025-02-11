@@ -1,9 +1,22 @@
-a={1,2,3,4,1,True,"emc"}
+a={"name":"harsha",
+   "age":25,
+   "location":"Tvpm",
+   "students":["bala","john"]}
 print(a)
-a.add(10)
+print(a["name"])
+print(a.keys())
+print(a.values())
+a["age"]=24
 print(a)
-a.remove(4)
+a["color"]="red"
 print(a)
-#pop can remove different object in each run
-a.pop()
+a.update({"location":"India"})
+print(a)
+a.pop("age")
+print(a)
+del a["name"]
+print(a)
+a.clear()
+print(a)
+del a
 print(a)
