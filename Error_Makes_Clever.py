@@ -1,10 +1,23 @@
-def add(n1,n2):
-    return n1+n2
+class goa:
+    name="blah"
+    drink=""
+    def party(self):
+        print("Lets party")
+    def beach(self):
+        print("Enjoying the beach")
 
+Ramesh= goa()
+Suresh= goa()
 
-a=int(input("number 1:"))
-b=int(input("number 2:"))
-c=int(input("number 3:"))
-sum=add(a,b)
-output=sum*c
-print(output)
+Ramesh.party()
+Ramesh.name="Ramesh"
+Suresh.name="Suresh"
+Ramesh.drink="Yes"
+Suresh.drink="No"
+print(Ramesh.name)
+print("drink:",Ramesh.drink)
+print(Suresh.name)
+print("drink:",Suresh.drink)
+
+Ramesh.party()
+Suresh.beach()
