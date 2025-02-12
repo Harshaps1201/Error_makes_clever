@@ -1,7 +1,12 @@
-def printrange(c,d):
-    for i in range(c,d+1):
-        print(i,end=",")
+s_username="emc"
+s_password="123"
+def validate():
+    if(s_username==username and s_password==password):
+        return "True"
+    else:
+        return "false"
 
-a=int(input("number1:"))
-b=int(input("number2:"))
-printrange(a,b)
+
+username=input("username:")
+password=input("password:")
+print(validate())
