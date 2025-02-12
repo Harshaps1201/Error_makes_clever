@@ -1,12 +1,10 @@
-s_username="emc"
-s_password="123"
-def validate():
-    if(s_username==username and s_password==password):
-        return "True"
-    else:
-        return "false"
+def add(n1,n2):
+    return n1+n2
 
 
-username=input("username:")
-password=input("password:")
-print(validate())
+a=int(input("number 1:"))
+b=int(input("number 2:"))
+c=int(input("number 3:"))
+sum=add(a,b)
+output=sum*c
+print(output)
